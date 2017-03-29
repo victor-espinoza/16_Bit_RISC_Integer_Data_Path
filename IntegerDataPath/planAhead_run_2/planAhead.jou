@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v12.2
+# Build 65285 by hdbuild on Wed Jun 23 14:55:19 PDT 2010
+# Start of session at: Tue Nov 05 10:08:27 2013
+# Process ID: 5944
+# Log file: H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/planAhead_run_2/planAhead.log
+# Journal file: H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+source C:/Xilinx/12.2/ISE_DS/PlanAhead/scripts/sdc.tcl
+start_gui -source {H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/pa.fromNetlist.tcl}
+# create_project -name IntegerDataPath -dir "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/planAhead_run_2" -part xc3s500efg320-5
+exit

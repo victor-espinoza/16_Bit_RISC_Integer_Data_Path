@@ -1,0 +1,106 @@
+xst -intstyle ise -ifn "F:/engineering/301/Lab 6/IntegerDataPath/topLevel.xst" -ofn "F:/engineering/301/Lab 6/IntegerDataPath/topLevel.syr" 
+xst -intstyle ise -ifn "F:/engineering/301/Lab 6/IntegerDataPath/topLevel.xst" -ofn "F:/engineering/301/Lab 6/IntegerDataPath/topLevel.syr" 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+xst -intstyle ise -ifn "D:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "D:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+xst -intstyle ise -ifn "D:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.xst" -ofn "D:/CECS 301/LABS/Integer Data Path (lab 6)/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "H:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.xst" -ofn "E:/CECS 301/LABS/Lab 6- Integer Data Path/IntegerDataPath/topLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc board_implementation.ucf -p xc3s500e-fg320-5 "topLevel.ngc" topLevel.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o topLevel_map.ncd topLevel.ngd topLevel.pcf 
+par -w -intstyle ise -ol high -t 1 topLevel_map.ncd topLevel.ncd topLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf -ucf board_implementation.ucf 
+bitgen -intstyle ise -f topLevel.ut topLevel.ncd 

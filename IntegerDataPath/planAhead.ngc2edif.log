@@ -1,0 +1,17 @@
+Release 12.2 - ngc2edif M.63c (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design topLevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to topLevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus clk1/Mcompar_count_cmp_ge0000_lut<6 : 1>
+   on block topLevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   display/LED_clk/Mcompar_count_cmp_ge0000_lut<7 : 1> on block topLevel is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file topLevel.edif ...
+ngc2edif: Total memory usage is 57156 kilobytes
+

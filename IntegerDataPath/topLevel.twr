@@ -1,0 +1,165 @@
+--------------------------------------------------------------------------------
+Release 12.2 Trace  (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml topLevel.twx topLevel.ncd -o topLevel.twr topLevel.pcf
+-ucf board_implementation.ucf
+
+Design file:              topLevel.ncd
+Physical constraint file: topLevel.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2010-06-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+we          |    0.542(R)|    0.688(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.640|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+alu_op<0>      |C              |    8.514|
+alu_op<0>      |N              |    9.929|
+alu_op<0>      |Z              |   14.560|
+alu_op<0>      |a              |   17.119|
+alu_op<0>      |b              |   16.493|
+alu_op<0>      |c              |   16.591|
+alu_op<0>      |d              |   16.586|
+alu_op<0>      |e              |   16.083|
+alu_op<0>      |f              |   15.859|
+alu_op<0>      |g              |   15.312|
+alu_op<1>      |C              |    7.857|
+alu_op<1>      |N              |    8.999|
+alu_op<1>      |Z              |   13.762|
+alu_op<1>      |a              |   15.512|
+alu_op<1>      |b              |   14.886|
+alu_op<1>      |c              |   14.984|
+alu_op<1>      |d              |   14.979|
+alu_op<1>      |e              |   14.476|
+alu_op<1>      |f              |   14.252|
+alu_op<1>      |g              |   13.705|
+alu_op<2>      |C              |    7.349|
+alu_op<2>      |N              |    7.857|
+alu_op<2>      |Z              |   13.076|
+alu_op<2>      |a              |   15.635|
+alu_op<2>      |b              |   15.009|
+alu_op<2>      |c              |   15.107|
+alu_op<2>      |d              |   15.102|
+alu_op<2>      |e              |   14.599|
+alu_op<2>      |f              |   14.375|
+alu_op<2>      |g              |   13.828|
+alu_op<3>      |C              |    7.498|
+alu_op<3>      |N              |    7.974|
+alu_op<3>      |Z              |   11.935|
+alu_op<3>      |a              |   13.195|
+alu_op<3>      |b              |   12.569|
+alu_op<3>      |c              |   12.667|
+alu_op<3>      |d              |   12.662|
+alu_op<3>      |e              |   12.159|
+alu_op<3>      |f              |   11.935|
+alu_op<3>      |g              |   11.388|
+r_adr<0>       |C              |   13.623|
+r_adr<0>       |N              |   14.949|
+r_adr<0>       |Z              |   18.511|
+r_adr<0>       |a              |   19.179|
+r_adr<0>       |b              |   18.553|
+r_adr<0>       |c              |   18.651|
+r_adr<0>       |d              |   18.646|
+r_adr<0>       |e              |   18.143|
+r_adr<0>       |f              |   18.051|
+r_adr<0>       |g              |   17.537|
+r_adr<1>       |C              |   14.181|
+r_adr<1>       |N              |   15.507|
+r_adr<1>       |Z              |   19.069|
+r_adr<1>       |a              |   20.060|
+r_adr<1>       |b              |   19.434|
+r_adr<1>       |c              |   19.532|
+r_adr<1>       |d              |   19.527|
+r_adr<1>       |e              |   19.024|
+r_adr<1>       |f              |   18.800|
+r_adr<1>       |g              |   18.281|
+s_adr<0>       |C              |   13.742|
+s_adr<0>       |N              |   15.321|
+s_adr<0>       |Z              |   18.668|
+s_adr<0>       |a              |   19.472|
+s_adr<0>       |b              |   18.846|
+s_adr<0>       |c              |   18.944|
+s_adr<0>       |d              |   18.939|
+s_adr<0>       |e              |   18.436|
+s_adr<0>       |f              |   18.295|
+s_adr<0>       |g              |   17.781|
+s_adr<1>       |C              |   13.399|
+s_adr<1>       |N              |   14.653|
+s_adr<1>       |Z              |   17.855|
+s_adr<1>       |a              |   19.703|
+s_adr<1>       |b              |   19.077|
+s_adr<1>       |c              |   19.175|
+s_adr<1>       |d              |   19.170|
+s_adr<1>       |e              |   18.667|
+s_adr<1>       |f              |   18.443|
+s_adr<1>       |g              |   17.900|
+w_adr1         |C              |   14.083|
+w_adr1         |N              |   15.783|
+w_adr1         |Z              |   19.010|
+w_adr1         |a              |   20.753|
+w_adr1         |b              |   20.127|
+w_adr1         |c              |   20.225|
+w_adr1         |d              |   20.220|
+w_adr1         |e              |   19.717|
+w_adr1         |f              |   19.569|
+w_adr1         |g              |   19.055|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Nov 20 16:25:24 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 162 MB
+
+
+

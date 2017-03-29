@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Victor Espinoza/Desktop/CECS 301/Lab 6- Integer Data Path/IntegerDataPath/alu_tb_isim_beh.exe" -prj "C:/Users/Victor Espinoza/Desktop/CECS 301/Lab 6- Integer Data Path/IntegerDataPath/alu_tb_beh.prj" "work.alu_tb" "work.glbl" 

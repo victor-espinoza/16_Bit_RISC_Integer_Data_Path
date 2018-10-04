@@ -1,4 +1,4 @@
-# Lab_6_Integer_Data_Path
+# Lab_5_Integer_Data_Path
 Project Overview:  
 Integer Datapath using Verilog.
     

@@ -1,6 +1,6 @@
 # Lab_6_Integer_Data_Path
 Project Overview:  
-Integer Datapath using Verilog.  
+Integer Datapath using Verilog.
     
 The purpose of this project is to connect our 8x16 register file to an 16-bit Arithmetic-logic unit (ALU) using structural Verilog. The ALU is written as a behavioral model. The combination of the Register file with the ALU and an external input (through the S-MUX) creates an "Integer Datapath" module.
   
